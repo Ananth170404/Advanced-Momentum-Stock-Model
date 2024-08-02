@@ -111,7 +111,7 @@ end_date = datetime.datetime.strptime(input_date, '%Y-%m-%d')
 end_date += datetime.timedelta(days=1)  # Adjust to include the specified date
 
 # Read stocks from file
-stocks = pd.read_excel(r"C:\Users\sanan\Downloads\NSE Stocks.xlsx")
+stocks = pd.read_excel(r"NSE Stocks.xlsx")
 stocks_list = stocks['Ticker'].tolist()
 
 # Loop through stocks
