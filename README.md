@@ -54,10 +54,10 @@ The script evaluates whether each stock satisfies certain conditions, including:
 Each condition is counted, and the total number of satisfied conditions is recorded for each stock.
 
 ## Files
-advanced_momentum_stock_model.py: The main script that performs the stock analysis.
-requirements.txt: List of required Python packages.
-README.md: This readme file.
-NSE Stocks.xlsx: Excel file containing the list of stock tickers to analyze (not included, must be provided).
+- advanced_momentum_stock_model.py: The main script that performs the stock analysis.
+- requirements.txt: List of required Python packages.
+- README.md: This readme file.
+- NSE Stocks.xlsx: Excel file containing the list of stock tickers to analyze (not included, must be provided).
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
@@ -68,3 +68,6 @@ Make your changes.
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
