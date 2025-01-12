@@ -1,6 +1,7 @@
 # Advanced Momentum Stock Model
 
-This project analyzes the momentum of stocks using various technical indicators such as RSI, MACD, ADX, Stochastic Oscillator and so on. The model identifies stocks that satisfy specific conditions indicating upward trends and momentum. Proven to perform better than the Indian Stock Index for the past 3 years via Backtesting.
+This project analyzes the momentum of stocks using various technical indicators such as RSI, MACD, ADX, Stochastic Oscillator and so on. The model identifies stocks that satisfy specific conditions indicating upward trends and momentum. Proven to perform better than the Indian Stock Index 70% of the time for the past 5 years via Backtesting.
+Can also view and compare stocks across their important details which are useful for a trader.
 
 ## Table of Contents
 
