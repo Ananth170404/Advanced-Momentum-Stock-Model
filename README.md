@@ -26,10 +26,27 @@ Ensure you have the list of stocks in an Excel file named NSE Stocks.xlsx with a
 
 Run the script with the desired input date:
 ```sh
-python advanced_momentum_stock_model.py
+python Advanced_Momentum_Stock_Model.py
 ```
 
 The script will output a DataFrame containing the analyzed data for each stock.
+
+
+Run the script with the desired stock ticker input:
+```sh
+python Get_Stock_Info.py
+```
+
+The script will output all the important information pertaining to a stock including time-series graphs.
+
+
+Run the script with the desired number of stocks and their ticker as input:
+```sh
+python Multi_Stock_Comparison.py
+```
+
+he script will compare all the important information pertaining to stocks including time-series graphs.
+
 
 ## Technical Indicators
 The script calculates the following technical indicators for each stock:
@@ -53,8 +70,26 @@ The script evaluates whether each stock satisfies certain conditions, including:
 - %D (Stochastic Oscillator) is trending upwards.
 Each condition is counted, and the total number of satisfied conditions is recorded for each stock.
 
+## Stock Information
+The script to view and compare multiple stocks covers these important stock details
+
+- General Stock Information
+- Valuation Metrics
+- Profitability Metrics
+- Growth Metrics
+- Dividend Metrics
+- Financial Health Metrics
+- Performance Metrics
+- Yahoo Analyst Recommendations
+- Shareholder Data
+- Historical Data
+- Technical Metrics
+- Stock Performance Graphs over 5 days, 1 month, 3 months, 6 months, 1 year and 5 years 
+
 ## Files
-- advanced_momentum_stock_model.py: The main script that performs the stock analysis.
+- Advanced_Momentum_Stock_Model.py: The main script that performs the stock analysis.
+- Get_Stock_Info.py : The script that allows user to view important stock details.
+- Multi_Stock_Comparison.py : The script that allows user to view and compare across multiple stocks.
 - requirements.txt: List of required Python packages.
 - README.md: This readme file.
 - NSE Stocks.xlsx: Excel file containing the list of stock tickers to analyze (not included, must be provided).
